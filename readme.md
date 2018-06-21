@@ -18,3 +18,4 @@ php artisan vendor:publish --provider="Intervention\Image\ImageServiceProviderLa
 
 
 composer requrie "summerblue/generator:~0.5"
+composer artisan make:scaffold Project --schema=""
