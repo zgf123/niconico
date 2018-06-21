@@ -19,3 +19,11 @@ php artisan vendor:publish --provider="Intervention\Image\ImageServiceProviderLa
 
 composer requrie "summerblue/generator:~0.5"
 composer artisan make:scaffold Project --schema=""
+
+
+composer require "barryvdh/laravel-debugbar:~3.1" --dev
+php artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
+'enabled' => env('APP_DEBUG', false),
+
+
+composer require "hieu-le/active:~3.5"
