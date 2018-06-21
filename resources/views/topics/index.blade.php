@@ -17,8 +17,8 @@
 
             <div class="panel-heading">
                 <ul class="nav nav-pills">
-                    <li role="presentation" class="active"><a href="#">最后回复</a></li>
-                    <li role="presentation"><a href="#">最新发布</a></li>
+                    <li class="{{active_class( !if_query('order', 'rencent') )}}" role="presentation" class="active"><a href="{{ Request::url() }}">最后回复</a></li>
+                    <li class="{{active_class( if_query('order', 'rencent') )}}" role="presentation"><a href="{{ Request::url() }}?order=rencent">最新发布</a></li>
                 </ul>
             </div>
 
