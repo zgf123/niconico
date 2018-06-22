@@ -7,6 +7,7 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="description" content="@yield('description', '默认描述')">
 
     <title>@yield('title', 'LaraBBS') - Laravel 进阶教程</title>
 
