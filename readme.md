@@ -29,5 +29,8 @@ php artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
 composer require "hieu-le/active:~3.5"
 
 
+安装simditor编辑器
+
+
 composer require "mews/purifier:~2.0"
 php artisan vendor:publish --provider="Mews\Purifier\PurifierServiceProvider"
